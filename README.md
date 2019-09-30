@@ -1,5 +1,7 @@
 # test-project
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kosirm/vuex-orm-sample-app.svg)](https://greenkeeper.io/)
+
 > A Vue.js project
 
 ## Build Setup

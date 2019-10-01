@@ -3,12 +3,20 @@ import * as firebase from "firebase";
 require("firebase/firestore");
 
 var config = {
-  apiKey: "AIzaSyCGBKMAPR3W6lNNTKPmA4iXva20WBYBZE0",
+  /* apiKey: "AIzaSyCGBKMAPR3W6lNNTKPmA4iXva20WBYBZE0",
   authDomain: "swipeapp-c0671.firebaseapp.com",
   databaseURL: "https://swipeapp-c0671.firebaseio.com",
   projectId: "swipeapp-c0671",
   storageBucket: "swipeapp-c0671.appspot.com",
-  messagingSenderId: "233600848634"
+  messagingSenderId: "233600848634" */
+  apiKey: "AIzaSyB4I39qkKvSY7BpkDIt3tYHVJyb8RR-aDo",
+  authDomain: "learn-vuex-orm.firebaseapp.com",
+  databaseURL: "https://learn-vuex-orm.firebaseio.com",
+  projectId: "learn-vuex-orm",
+  storageBucket: "learn-vuex-orm.appspot.com",
+  messagingSenderId: "518524987256",
+  appId: "1:518524987256:web:6fc3dfef65135884b28a8d",
+  measurementId: "G-ZRQ5ZBPJ6T"
 };
 
 !firebase.apps.length && firebase.initializeApp(config);
